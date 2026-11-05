@@ -116,11 +116,24 @@ export function Footer() {
           {/* Back to top */}
           <div className="flex flex-col items-start gap-4 sm:items-end lg:items-end">
             <h3 className="text-sm font-semibold text-zinc-200">Get in touch</h3>
+                <a
+              href={`mailto:${siteConfig.fullName}`}
+              className="text-sm text-muted-foreground transition-colors hover:text-emerald-300"
+            >
+              Name: {siteConfig.fullName}
+            </a>
             <a
               href={`mailto:${siteConfig.email}`}
               className="text-sm text-muted-foreground transition-colors hover:text-emerald-300"
             >
-              {siteConfig.email}
+              Email:{siteConfig.email}
+            </a>
+            
+                <a
+              href={`mailto:${siteConfig.whatsappNumber}`}
+              className="text-sm text-muted-foreground transition-colors hover:text-emerald-300"
+            >
+              Contact: {siteConfig.whatsappNumber}
             </a>
             <Button
               asChild

@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
    * Canonical production URL — used for SEO metadata, sitemap.xml and robots.txt.
    * PLACEHOLDER: change to your domain, e.g. "https://yourname.dev"
    */
-  url: "https://your-portfolio.vercel.app",
+  url: "https://rashidsaleem-portfolio.vercel.app/",
 
   /** PLACEHOLDER: your public contact email */
   email: "rashidsaleem941@gmail.com",
